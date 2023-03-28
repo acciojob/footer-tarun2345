@@ -38,3 +38,6 @@ a{
 	justify-content:space-between;
 	background-color:gray;
 }
+.media-icons{
+	display:flex;
+}
