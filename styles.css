@@ -1,1 +1,40 @@
 /* your code here */
+body{
+   margin:10px 30px;
+	background-color:black;
+	color:white;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+img{
+	width:40px;
+	margin:5px;
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-size:18px;
+}
+.links{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+	align-items:start;
+	margin:0;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-between;
+	gap:10px;
+	align-items:start;
+	margin:0;
+}
+.bottom-details{
+	padding:20px 5px;
+	display:flex;
+	justify-content:space-between;
+	background-color:gray;
+}
